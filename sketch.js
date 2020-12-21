@@ -25,6 +25,9 @@ function draw() {
         writeStock();
         dog.addImage(happyDogimg);
     }
+    if(keyWentUp(UP_ARROW)){
+     dog.addImage(dog_img);
+    }
     drawSprites();
     textSize(30);
     fill("black");
