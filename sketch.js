@@ -26,7 +26,7 @@ function draw() {
         dog.addImage(happyDogimg);
     }
     if(keyWentUp(UP_ARROW)){
-     dog.addImage(dog_img);
+     dog.addImage(dogimg);
     }
     drawSprites();
     textSize(30);
